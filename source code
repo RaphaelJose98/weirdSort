@@ -23,7 +23,7 @@ def keyfn(x):
     return soi(x)
 
 def keyfn2(x):
-    return alpha(x)
+    return str(x)
 
 
 a = list(map(int, input().rstrip().split()))
